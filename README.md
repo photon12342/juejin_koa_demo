@@ -1,14 +1,15 @@
 # my-project
 
 ## src下是前端代码
+启动前端本地环境
 ```
 npm install
 npm run serve
 ```
-启动前端本地环境
 
+打包代码放到 server/static下面
 ```
-npm run build  // 打包代码放到 server/static下面
+npm run build
 ```
 
 ## server文件夹是代理静态文件的服务
