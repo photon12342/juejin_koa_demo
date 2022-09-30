@@ -26,4 +26,4 @@ node index.js
 ```
 
 ### Customize configuration
-对应掘金文章 [使用 Koa 做前端静态资源代理(搭建前端生产环境)](xxx).
+对应掘金文章 [使用 Koa 做前端静态资源代理(搭建前端生产环境)](https://juejin.cn/post/7149095554344026119/).
