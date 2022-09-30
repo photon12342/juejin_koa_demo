@@ -1,24 +1,28 @@
-# demo1
+# my-project
 
-## Project setup
+## src下是前端代码
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
+启动前端本地环境
 
-### Compiles and minifies for production
 ```
-npm run build
+npm run build  // 打包代码放到 server/static下面
 ```
 
-### Lints and fixes files
+## server文件夹是代理静态文件的服务
 ```
-npm run lint
+cd server
+npm install
+node index.js
+```
+## service文件夹是写的一个接口服务，用来测试代理问题
+```
+cd service
+npm install
+node index.js
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+对应掘金文章 [使用 Koa 做前端静态资源代理(搭建前端生产环境)](xxx).
